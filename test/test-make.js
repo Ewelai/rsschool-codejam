@@ -20,14 +20,14 @@ describe('make function', function () {
   });
 
   it("Test 3", function () {
-    assert.equal(inside(15)(2)(multiply), 30);
+    assert.equal(inside(15)(5)(multiply), 75);
   });
 
   it("Test 4", function () {
-    assert.equal(inside(15)(2)(1, 1, 2)(multiply), 60);
+    assert.equal(inside(15)(5)(8, 7, 2)(multiply), 8400);
   });
 
   it("Test 5", function () {
-    assert.equal(inside(5)(2)(2, 3, 4)(multiply), 240);
+    assert.equal(inside(8)(156)(1, 7, 4)(multiply), 34944);
   });
 });
