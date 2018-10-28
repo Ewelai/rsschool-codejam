@@ -1,0 +1,27 @@
+{
+  "name": "rsschool-codejam",
+  "version": "1.0.0",
+  "description": "RSS CodeJam",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ewelai/rsschool-codejam.git"
+  },
+  "author": "Ewelai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ewelai/rsschool-codejam/issues"
+  },
+  "homepage": "https://github.com/Ewelai/rsschool-codejam#readme",
+  "dependencies": {
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0"
+  }
+}

@@ -1,8 +1,4 @@
-function sum(a, b) {
-    return a + b;
-}
-
-function make(a){ 
+module.exports = function make(a){ 
 
     let arr = [a];
     let currentInt = 0; 
@@ -26,5 +22,3 @@ function make(a){
 
     return inside;
 }
-
-make(15)(34, 21, 666)(41)(sum);

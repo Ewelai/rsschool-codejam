@@ -1,4 +1,4 @@
-function sumOfOther(arr) {
+module.exports = function sumOfOther(arr) {
     let result = [], fil, sum, len = arr.length - 1;
 
     for(let i = 0; i <= len; i++) {
