@@ -7,4 +7,4 @@ module.exports = function sumOfOther(arr) {
         result.push(sum);
     }
     return result;
-}
+};
